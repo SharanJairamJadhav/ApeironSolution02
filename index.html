@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apeiron Solutions | Brand Visibility & Branding Solutions</title>
+  <!-- CSS Architecture (Combine or link individually as per your folder structure) -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Apeiron Solutions Home">
+        <img src="./assets/apeiron-logo.png" alt="">
+      </a>
+
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-expanded="false" aria-controls="main-nav"
+        aria-label="Toggle navigation">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#methodology" class="nav-link">Methodology</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#works" class="nav-link">Works</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary nav-cta">Start a Project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal-up">
+          <h1 class="hero-title">Making Brands <span>Impossible to Ignore.</span></h1>
+          <p class="hero-text">Apeiron Solutions helps brands build stronger visibility through innovative, efficient
+            and execution-focused branding solutions.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">Explore Our Solutions</a>
+            <a href="#contact" class="btn btn-secondary">Start a Conversation</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal-fade" aria-hidden="true">
+          <!-- Abstract Brand Visibility Illustration -->
+          <svg class="hero-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="50" y="100" width="150" height="200" fill="var(--color-surface)" stroke="var(--color-border)"
+              stroke-width="2" />
+            <rect x="80" y="130" width="90" height="140" fill="var(--color-muted)" />
+            <circle cx="280" cy="150" r="60" fill="var(--color-accent)" opacity="0.9" />
+            <path d="M220 250 L350 250 L320 320 L190 320 Z" fill="var(--color-text)" opacity="0.1" />
+            <line x1="50" y1="350" x2="350" y2="350" stroke="var(--color-border)" stroke-width="4" />
+            <g class="animated-float">
+              <rect x="250" y="80" width="60" height="40" fill="var(--color-background)" stroke="var(--color-text)"
+                stroke-width="2" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+      <div class="container">
+        <div class="two-col-grid">
+          <div class="about-heading reveal-up">
+            <h2 class="section-title">What We<br>Are About</h2>
+          </div>
+          <div class="about-content reveal-up reveal-delay-1">
+            <p class="lead-text">Apeiron Solutions began with the purpose of helping brands achieve their goals through
+              innovative and efficient brand visibility solutions spanning categories and industries.</p>
+            <div class="metrics-grid">
+              <div class="metric">
+                <span class="metric-num">01</span>
+                <span class="metric-label">Brand Understanding</span>
+              </div>
+              <div class="metric">
+                <span class="metric-num">02</span>
+                <span class="metric-label">Strategic Visibility</span>
+              </div>
+              <div class="metric">
+                <span class="metric-num">03</span>
+                <span class="metric-label">Execution</span>
+              </div>
+              <div class="metric">
+                <span class="metric-num">04</span>
+                <span class="metric-label">Scale</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy section-padding bg-surface">
+      <div class="container">
+        <h2 class="section-title text-center reveal-up">Place + Positioning + Presence</h2>
+        <p class="text-center section-subtitle reveal-up">Place and positioning are critical for establishing brand
+          presence and awareness.</p>
+
+        <div class="grid-3 mt-large">
+          <div class="info-card reveal-up">
+            <h3>Establishing Presence</h3>
+            <p>We believe in the power of physical space. Establishing your brand presence requires understanding
+              exactly what you want to achieve.</p>
+          </div>
+          <div class="info-card reveal-up reveal-delay-1">
+            <h3>Understanding the Brand</h3>
+            <p>True visibility requires deep understanding of geography, seasonal shifts, and the target consumer's
+              psychological landscape.</p>
+          </div>
+          <div class="info-card reveal-up reveal-delay-2">
+            <h3>Efficient Visibility</h3>
+            <p>Solutions must not only be visually striking but also highly effective, efficient, and commercially
+              sensible for scale.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section class="methodology section-padding" id="methodology">
+      <div class="container">
+        <h2 class="section-title reveal-up">Apeiron Methodology</h2>
+        <div class="timeline mt-large reveal-up">
+          <div class="timeline-step">
+            <div class="step-num">01</div>
+            <h3 class="step-title">Planning</h3>
+            <p>Strategic application planning tailored to your brand's specific environments.</p>
+          </div>
+          <div class="timeline-step">
+            <div class="step-num">02</div>
+            <h3 class="step-title">Sourcing</h3>
+            <p>Procuring premium materials that ensure durability and visual excellence.</p>
+          </div>
+          <div class="timeline-step">
+            <div class="step-num">03</div>
+            <h3 class="step-title">Execution</h3>
+            <p>Precision fabrication and structural creation by industry experts.</p>
+          </div>
+          <div class="timeline-step">
+            <div class="step-num">04</div>
+            <h3 class="step-title">Management</h3>
+            <p>Nationwide installation and end-to-end project management.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding bg-dark text-light" id="services">
+      <div class="container">
+        <h2 class="section-title reveal-up">Everything Your Brand Needs to Be Seen.</h2>
+
+        <div class="grid-2 mt-large">
+          <!-- Service 1 -->
+          <article class="service-card reveal-up" tabindex="0" data-modal="service-modal"
+            data-title="POP / POS Display Solutions"
+            data-desc="Promotional tools designed to attract attention, communicate useful information, and encourage purchase decisions at the critical point of sale.">
+            <div class="service-num">01</div>
+            <div class="service-content">
+              <h3 class="service-title">POP / POS Display</h3>
+              <p>Strategic retail displays driving consumer decisions.</p>
+            </div>
+            <div class="service-icon" aria-hidden="true">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="8" y="16" width="32" height="24" />
+                <path d="M16 16V8h16v8" />
+                <line x1="8" y1="28" x2="40" y2="28" />
+              </svg>
+            </div>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card reveal-up reveal-delay-1" tabindex="0" data-modal="service-modal"
+            data-title="Interior Graphics"
+            data-desc="Transforming commercial interiors into branded environments. We create environmental graphics and branded spaces that resonate with your identity.">
+            <div class="service-num">02</div>
+            <div class="service-content">
+              <h3 class="service-title">Interior Graphics</h3>
+              <p>Environmental graphics and branded commercial spaces.</p>
+            </div>
+            <div class="service-icon" aria-hidden="true">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="4" y="4" width="40" height="40" />
+                <path d="M4 16h40M16 4v40" />
+              </svg>
+            </div>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card reveal-up" tabindex="0" data-modal="service-modal" data-title="Fleet Graphics"
+            data-desc="Vehicle branding serves as a memorable and powerful moving visibility tool, ensuring your brand is recognized across all operational geographies.">
+            <div class="service-num">03</div>
+            <div class="service-content">
+              <h3 class="service-title">Fleet Graphics</h3>
+              <p>Powerful mobile visibility tools for mass recognition.</p>
+            </div>
+            <div class="service-icon" aria-hidden="true">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8 32V16h20l8 8v8H8z" />
+                <circle cx="16" cy="32" r="4" />
+                <circle cx="32" cy="32" r="4" />
+              </svg>
+            </div>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card reveal-up reveal-delay-1" tabindex="0" data-modal="service-modal"
+            data-title="OOH Advertising"
+            data-desc="Out of Home media supports brand repositioning, purpose communication, and delivers massive impact, reach, and frequency.">
+            <div class="service-num">04</div>
+            <div class="service-content">
+              <h3 class="service-title">OOH Advertising</h3>
+              <p>High-impact billboards and outdoor brand communication.</p>
+            </div>
+            <div class="service-icon" aria-hidden="true">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="6" y="8" width="36" height="20" />
+                <path d="M24 28v12M16 40h16" />
+              </svg>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works / Horizontal Scroll Section -->
+    <section class="works section-padding" id="works">
+      <div class="container">
+        <h2 class="section-title reveal-up">Apeiron's Works</h2>
+      </div>
+      <!-- Horizontal scroll container -->
+      <div class="works-h-scroll mt-large" id="works-scroll">
+        <div class="works-track">
+
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <div class="dummy-img bg-surface">
+                <img src="./assets/images/img1.jpeg" alt="">
+              </div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Retail Visibility</span>
+              <h3 class="project-title">Project 01</h3>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <div class="dummy-img bg-surface">
+                <img src="./assets/images/img2.jpeg" alt="">
+              </div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Interior Branding</span>
+              <h3 class="project-title">Project 02</h3>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <div class="dummy-img bg-surface">
+                <img src="./assets/images/img3.jpeg" alt="">
+              </div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Fleet Branding</span>
+              <h3 class="project-title">Project 03</h3>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <div class="dummy-img bg-surface">
+                <img src="./assets/images/img4.jpeg" alt="">
+              </div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">OOH Campaign</span>
+              <h3 class="project-title">Project 04</h3>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <div class="dummy-img bg-surface">
+                <img src="./assets/images/img5.jpeg" alt="">
+              </div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">OOH Campaign</span>
+              <h3 class="project-title">Project 04</h3>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <div class="dummy-img bg-surface">
+                <img src="./assets/images/img6.jpeg" alt="">
+              </div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">OOH Campaign</span>
+              <h3 class="project-title">Project 04</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section section-padding bg-surface">
+      <div class="container text-center reveal-up">
+        <blockquote class="brand-quote">
+          "Execution becomes content in a work of a genius."
+        </blockquote>
+        <cite class="quote-author">— Bill Bernbach</cite>
+      </div>
+    </section>
+
+    <!-- Statement Section -->
+    <section class="statement-section section-padding text-center bg-accent text-light">
+      <div class="container reveal-up">
+        <h2 class="massive-title">Brand Visibility Cannot Be Ignored.</h2>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="two-col-grid">
+          <div class="contact-info reveal-up">
+            <h2 class="section-title">Let's Make Your Brand Visible.</h2>
+            <p class="mt-small mb-large">Reach out to us to discuss your brand visibility requirements.</p>
+
+            <div class="address-block">
+              <h3>City Office</h3>
+              <address>1st Floor, #8, Old Airport Service Road,<br>Near Haiku Honda, Domlur,<br>Bangalore - 560071
+              </address>
+            </div>
+            <div class="address-block">
+              <h3>Registered Office</h3>
+              <address>B-Block G06, Manar Elegance,<br>Somasundarapalya, HSR Layout Sector 2,<br>Bangalore - 560102
+              </address>
+            </div>
+            <div class="contact-persons mt-medium">
+              <p><strong>Robin:</strong> <a href="tel:+919945033455">99450 33455</a> | robin@apeiron.solutions</p>
+              <p><strong>Srikanth:</strong> <a href="tel:+919742278735">97422 78735</a> | srikanth@apeiron.solutions</p>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal-up reveal-delay-1">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+                <span class="error-msg" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+                <span class="error-msg" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required aria-required="true">
+                <span class="error-msg" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Requirement *</label>
+                <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+                <span class="error-msg" aria-live="polite"></span>
+              </div>
+              <button type="submit" class="btn btn-primary w-full">Send Enquiry</button>
+              <div id="form-success" class="form-success hidden" aria-live="polite">Thank you. Your enquiry has been
+                received.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h2 class="footer-logo">APEIRON Solutions</h2>
+        <p>Innovative, efficient brand visibility solutions that help brands attain their goals.</p>
+      </div>
+      <div class="footer-nav">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-legal">
+        <p>&copy; 2026 Apeiron Solutions. All rights reserved.</p>
+        <p><a href="https://www.apeiron.solutions">www.apeiron.solutions</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Global Modal Component -->
+  <dialog id="global-modal" class="modal" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <div class="modal-body">
+        <h2 id="modal-title"></h2>
+        <p id="modal-desc"></p>
+        <button class="btn btn-primary mt-medium modal-action-close">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
